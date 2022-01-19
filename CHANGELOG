@@ -1,0 +1,51 @@
+Version 1.3
+---------------------------------
+* Fixed 'Scan QR Code' which had disappeared
+* Fixed plural issues in 'Last Check In'
+* Fixed all kinds of style issues
+* Added back buttons to a few pages
+* Implemented a first version of 'Frequent Guests'
+
+Version 1.2.1
+---------------------------------
+* Fixed a bug with the last check in
+
+Version 1.2
+---------------------------------
+* Added Last check in on first screen
+* Tapping your name on first screen now shows vaxxed cert
+* Added menu icon on first screen for settings
+* Added ability to disable QR code scanner in settings
+* Added ability to search locations by their code (manual / without QR code scanner)
+* Added auto completion on location name when the location code cannot be matched
+* Added ability to set the vaxxed date manually (if not filled in, it will be a random date 7 to 60 days ago)
+* Implemented vaxxed cert as a popup
+* Added more locations to the database
+    ACT: 27001 locations
+    QLD: 221525 locations
+    NT: 11008 locations
+    NT: 11008 locations
+* Updated QR scanning library
+* Style fixes
+
+Version 1.1
+---------------------------------
+* Added green tick on the check in success page
+* Added date of birth to the settings
+* Tapping the green tick will show a very legit looking certificate
+
+Version 1
+---------------------------------
+* With an actual QR code scanner. A camera is required (make sure you allow the app to use the camera when prompted)
+* Database of locations included in the app. The first load will be slow, be patient!
+* Settings are stored on your device only
+* If a scanned QR code cannot be matched against a location already in the app, you will be prompted to enter the location name. It is a one-time thing and the location name will be saved on your device. You can then later on scan the QR code as any other
+* Sound on success (turn your volume up for a more immersive and deceptive experience - you can do the evil laughter here)
+* To change your details, go back to the settings by tapping the image on the very first screen
+* No back button, just refresh the page (on Android Chrome, just "pull down" the page)
+* On Android Chrome, you can tap the '...' in the top right, then tap 'Add to Home Screen'
+* You should then access the app through the shortcut created (it will make the browser URL bar disappear)
+* If this current mirror ("where the app is currently hosted") gets blocked, I will try to post others.
+* If you are able, host mirrors of this app yourself (see post below) and spread the link to your mirror amongst your network of friends
+* Make sure the mirror you are using is trustworthy
+* Use a VPN or a proxy if possible
